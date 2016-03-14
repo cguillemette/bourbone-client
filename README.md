@@ -28,9 +28,10 @@ Basic example of a full stack webapp using Angular 2 and Node. Intended to be us
 * npm install
 
 ## Setup (server)
-* checkout [bourbone.server](https://github.com/cguillemette/bourbone-server)
+* checkout [bourbone-server](https://github.com/cguillemette/bourbone-server)
 * npm install
 * set mongodb URL (look for 'var mongodbURL')
+* import to mongodb /bourbone-server/db/links.json
 
 ## Run (client)
 * ng serve
