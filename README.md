@@ -34,6 +34,13 @@ Basic example of a full stack webapp using Angular 2 and Node. Intended to be us
 * set mongodb URL (look for 'var mongodbURL')
 * import to mongodb /bourbone-server/db/links.json
 
+## Debug (server)
+* kill 'grunt serve'
+* npm install -g node-inspector (if not done already)
+* node-debug src/index.js
+* set breakpoint in debugger @ http://127.0.0.1:8080/?port=5858
+* refresh bourbone-client in browser or send postman calls
+
 ## Run (client)
 * ng serve
 * make sure you have Chrome's extension 'Allow-Control-Allow-Origin: *'' installed
