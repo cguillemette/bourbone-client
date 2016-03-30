@@ -25,6 +25,7 @@ Basic example of a full stack webapp using Angular 2 and Node. Intended to be us
 
 ## Setup (client)
 * checkout
+* brew install watchman
 * npm install
 
 ## Setup (server)
